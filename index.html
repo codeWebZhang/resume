@@ -623,9 +623,10 @@
           });
           // zh - CN;
           var lang = navigator.language || navigator.userLanguage;
-          if (lang == "zh-CN") {
+          // if (lang == "zh-CN") {
+          if (defaultLang == "cn") {
             $("#switchButton").html("切换为英文");
-          } else if (lang == "en") {
+          } else if (defaultLang == "en") {
             $("#switchButton").html("切换为中文");
           }
         });
