@@ -10,11 +10,11 @@
 
 ## 关于我
 
-我是来自深圳的前端开发工程师，2014 年的中山大学软件工程本科毕业生，2014 年 4 月份开始第一份前端开发工作，至今已经有两年多前端开发经验。
+毕业于内蒙古农业大学，2016 年正式开始了自己的前端开发工程师生涯。此后的第一份公司是医疗行业，在职期间，在完成个人任务的同时，也在不断的学习 javascript。同时公司是美国企业，推崇 React 体系，从而开启我的 react 的大门。随着前端 es6 的出世，前端更注重工程化，组件化，前端门槛越来越高。许多框架也应运而生，前端 加油！
 
-有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用 HTML5、CSS3 以及 JavaScript(jQuery,Zepto)；对流行的前端开发框架，比如 Bootstrap3 和 Foundation5 都有实际开发项目；能熟练使用前端开发工具，比如 Gulp.js、Seajs、webpack 和 Less 等等；学习了 AngularJS 和 React，但更加喜欢轻巧、高性能、可组件化的 MVVM 框架 Vue.js，并在实际的开发项目中使用；学习了 Node.js(Express)、ECMAScript6，MongoDB 等技术，希望在往后的开发项目中得到实践提升。这里是 [自己的前端开发记录](https://codewebzhang.github.io) 。后面也有新的前端开发实习生加入团队，锻炼了一定的管理能力。
+<!-- 有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用 HTML5、CSS3 以及 JavaScript(jQuery,Zepto)；对流行的前端开发框架，比如 Bootstrap3 和 Foundation5 都有实际开发项目；能熟练使用前端开发工具，比如 Gulp.js、Seajs、webpack 和 Less 等等；学习了 AngularJS 和 React，但更加喜欢轻巧、高性能、可组件化的 MVVM 框架 Vue.js，并在实际的开发项目中使用；学习了 Node.js(Express)、ECMAScript6，MongoDB 等技术，希望在往后的开发项目中得到实践提升。这里是 [自己的前端开发记录](https://codewebzhang.github.io) 。后面也有新的前端开发实习生加入团队，锻炼了一定的管理能力。
 
-乐于分享，长期活跃在 GitHub 上，有不少开源的项目。有 [个人的技术博客](http://cody1991.github.io/index.html) ，使用 Jekyll 搭建，分享一些前端开发经验和工具。 在前端开发社区发布过教程，比如 [一个简单的 Vue.js 实践教程](https://segmentfault.com/a/1190000006776243) ，希望自己的学习经验能带给别人帮助。 英语过了六级，对英文书籍和网站的阅读无太多障碍，翻译了 [《The Majesty Of Vue.js》](https://leanpub.com/vuejs) 一书。
+乐于分享，长期活跃在 GitHub 上，有不少开源的项目。有 [个人的技术博客](http://cody1991.github.io/index.html) ，使用 Jekyll 搭建，分享一些前端开发经验和工具。 在前端开发社区发布过教程，比如 [一个简单的 Vue.js 实践教程](https://segmentfault.com/a/1190000006776243) ，希望自己的学习经验能带给别人帮助。 英语过了六级，对英文书籍和网站的阅读无太多障碍，翻译了 [《The Majesty Of Vue.js》](https://leanpub.com/vuejs) 一书。 -->
 
 爱读书，爱听歌，爱游泳，爱跑步，爱爬山。代码不是生活的全部。
 
