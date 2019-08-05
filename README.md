@@ -1,10 +1,10 @@
 ## 简介
 
-在线地址：[https://zhl-finbee.github.io/resume/](https://zhl-finbee.github.io/resume/)
+在线地址：[https://codewebzhang.github.io/resume/](https://codewebzhang.github.io/resume/)
 
 英文版暂停更新。
 
-欢迎 Clone 此项目来构建你自己的在线简历，GitHub Pages 的使用可移步到我的博客文章[GitHub Pages Introduction](http://cody1991.github.io/github/2015/04/04/github-pages-introduction.html)。
+欢迎 Clone 此项目来构建你自己的在线简历，GitHub Pages 的使用可移步到我的博客文章[GitHub Pages Introduction](https://codewebzhang.github.io)。
 
 ---
 
@@ -12,7 +12,7 @@
 
 我是来自深圳的前端开发工程师，2014 年的中山大学软件工程本科毕业生，2014 年 4 月份开始第一份前端开发工作，至今已经有两年多前端开发经验。
 
-有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用 HTML5、CSS3 以及 JavaScript(jQuery,Zepto)；对流行的前端开发框架，比如 Bootstrap3 和 Foundation5 都有实际开发项目；能熟练使用前端开发工具，比如 Gulp.js、Seajs、webpack 和 Less 等等；学习了 AngularJS 和 React，但更加喜欢轻巧、高性能、可组件化的 MVVM 框架 Vue.js，并在实际的开发项目中使用；学习了 Node.js(Express)、ECMAScript6，MongoDB 等技术，希望在往后的开发项目中得到实践提升。这里是 [自己的前端开发记录](https://github.com/cody1991/learn) 。后面也有新的前端开发实习生加入团队，锻炼了一定的管理能力。
+有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用 HTML5、CSS3 以及 JavaScript(jQuery,Zepto)；对流行的前端开发框架，比如 Bootstrap3 和 Foundation5 都有实际开发项目；能熟练使用前端开发工具，比如 Gulp.js、Seajs、webpack 和 Less 等等；学习了 AngularJS 和 React，但更加喜欢轻巧、高性能、可组件化的 MVVM 框架 Vue.js，并在实际的开发项目中使用；学习了 Node.js(Express)、ECMAScript6，MongoDB 等技术，希望在往后的开发项目中得到实践提升。这里是 [自己的前端开发记录](https://codewebzhang.github.io) 。后面也有新的前端开发实习生加入团队，锻炼了一定的管理能力。
 
 乐于分享，长期活跃在 GitHub 上，有不少开源的项目。有 [个人的技术博客](http://cody1991.github.io/index.html) ，使用 Jekyll 搭建，分享一些前端开发经验和工具。 在前端开发社区发布过教程，比如 [一个简单的 Vue.js 实践教程](https://segmentfault.com/a/1190000006776243) ，希望自己的学习经验能带给别人帮助。 英语过了六级，对英文书籍和网站的阅读无太多障碍，翻译了 [《The Majesty Of Vue.js》](https://leanpub.com/vuejs) 一书。
 
@@ -32,7 +32,7 @@
 
 因为想要自己前端开发学习中的所得所想以及碰到的有用的前端开发工具分享出来，就通过 GitHub Pages 和 Jekyll 从零开始搭建出了自己的个人博客，包含了 Vue.js 教程、Gulp.js 教程、Sublime Text、GitHub Pages 搭建等等博客。
 
-[项目地址](https://github.com/cody1991/cody1991.github.io) / [主页](http://cody1991.github.io)
+[项目地址](https://codewebzhang.github.io/resume/) / [主页](https://codewebzhang)
 
 ---
 
