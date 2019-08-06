@@ -1,5 +1,6 @@
 {
-  "i18n.about": "关于",
-  "footer.contact": "联系我们",
-  "i18n.content": "主要内容"
+  "i18n.title": "codezhang 个人简历",
+  "i18n.banner.name": "我叫codezhang(张洪利)",
+  "i18n.graduate": "Web前端开发工程师，2014年计算机学院毕业。",
+  "i18n.about": "关于我"
 }
