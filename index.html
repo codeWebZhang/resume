@@ -56,10 +56,10 @@
             <p>Web前端开发工程师，2014年计算机学院毕业。</p>
             <a href="#aboutme" class="mbnt">关于我</a>
             <div i18n="i18n.about">关于</div>
-            <div>
-              <button id="chinese" type="button" class="chinese">英文</button>
-              <button id="english" type="button" class="chinese"></button>
-            </div>
+
+            <div id="chinese" type="button" class="chinese">英文</div>
+            <div id="english" type="button" class="chinese"></div>
+
             <!-- 切换按钮 -->
           </div>
         </div>
@@ -621,18 +621,20 @@
     <script>
       $("#chinese").click(function() {
         $("[i18n]").i18n({
-          defaultLang: "cn",
+          defaultLang: "en",
           filePath: "/resume/i18n/"
         });
-        $(this).html("英文");
+        $(this).html("");
+        $("#english").html("英文");
       });
 
       $("#english").click(function() {
         $("[i18n]").i18n({
-          defaultLang: "en",
+          defaultLang: "cn",
           filePath: "/resume/i18n/"
         });
-        $(this).html("中文");
+        $(this).html("");
+        $("#chinese").html("中文");
       });
     </script>
   </body>
