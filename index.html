@@ -119,10 +119,10 @@
                 <h2 i18n="i18n.about">关于我</h2>
               </div>
               <div id="description">
-                <p>
+                <p i18n="i18n.escription.title">
                   我是一名北京的前端开发工程师，2014年的内蒙古农业大学计算机学院本科毕业生，2014年6月份入职一家档案软件公司，工作职责主要美化和修改页面，其间一直在不断学习前端知识。2015年年末来到北京正式从事前端开发，至今已经有三年多前端开发经验。
                 </p>
-                <p>
+                <p i18n="i18n.escription.one">
                   有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript(React,Typescript)；对流行的前端开发框架，比如Antd
                   Design和Redux,Bizcharts都有实际开发项目；能熟练使用前端开发工具，比如Gulp.js、Seajs、WebPack和Less等等；学习了AngularJS和React，但更加喜欢轻巧、高性能、可组件化的MVVM框架React.js，并在实际的开发项目中使用；学习了Node.js(Express)、ECMAScript6等技术，希望在往后的开发项目中得到实践提升。
                 </p>
@@ -160,8 +160,8 @@
       <section class="technical" id="technical">
         <div class="container">
           <div class="heading">
-            <h2 id="technical_title">技能</h2>
-            <p>
+            <h2 id="technical_title" i18n="i18n.skill">技能</h2>
+            <p i18n="i18n.feeling">
               前端开发需要一个持续和长期的学习，需要在各种领域都有充足的知识储备，需要对新技术的学习保持热情。前端开发工程师技术栈中最重要的就是原生JavaScript，《JavaScript高级编程》和《Javascript权威指南》都通读了几遍，最近重新拜读《JavaScript语言精粹》一书。
             </p>
           </div>
@@ -635,6 +635,42 @@
           $("#chinese").html("中文");
         }
       });
+
+      // function setCookieLanguage(name, value) {
+      //   document.cookie = name + "=" + value;
+      // }
+
+      // function getCookieLanguage(name) {
+      //   vararr = document.cookie.split("; ");
+
+      //   for (vari = 0; i < arr.length; i++) {
+      //     var arr1 = arr[i].split("=");
+
+      //     if (arr1[0] == name) {
+      //       return arr1[1];
+      //     }
+      //   }
+
+      //   return "";
+      // }
+
+      // var languageType = navigator.browserLanguage
+      //   ? navigator.browserLanguage
+      //   : navigator.language;
+
+      // if (
+      //   languageType.indexOf("zh") > -1 &&
+      //   getCookieLanguage("languageCookie") == ""
+      // ) {
+      //   $("[i18n]").i18n({ defaultLang: "chinese" });
+      // }
+
+      // if (
+      //   languageType.indexOf("en") > -1 &&
+      //   getCookieLanguage("languageCookie") == ""
+      // ) {
+      //   $("[i18n]").i18n({ defaultLang: "english" });
+      // }
     </script>
   </body>
 </html>
