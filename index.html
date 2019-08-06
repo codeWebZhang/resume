@@ -608,6 +608,7 @@
               console.log("i18n is ready.");
             }
           });
+          $("chinese").html("");
           // zh - CN;
           var lang = navigator.language || navigator.userLanguage;
           // if (lang == "zh-CN") {
@@ -624,13 +625,13 @@
         if (text == "中文") {
           console.log("-----");
           $("[i18n]").i18n({
-            defaultLang: "en",
+            defaultLang: "cn",
             filePath: "/resume/i18n/"
           });
           $(this).html("英文");
         } else if (text == "英文") {
           $("[i18n]").i18n({
-            defaultLang: "cn",
+            defaultLang: "en",
             filePath: "/resume/i18n/"
           });
           $("#chinese").html("中文");
