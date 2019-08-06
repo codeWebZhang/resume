@@ -607,27 +607,27 @@
               console.log("i18n is ready.");
             }
           });
-          /*切换为中文 - 按钮*/
-          $(".chinese").click(function() {
-            $("[i18n]").i18n({
-              defaultLang: "cn",
-              filePath: "/resume/i18n/"
-            });
-          });
-          /*切换为英文 - 按钮*/
-          $(".english").click(function() {
-            $("[i18n]").i18n({
-              defaultLang: "en",
-              filePath: "/resume/i18n/"
-            });
-          });
           // zh - CN;
           var lang = navigator.language || navigator.userLanguage;
           // if (lang == "zh-CN") {
           if (defaultLang == "cn") {
             $("#switchButton").html("切换为英文");
+            /*切换为英文 - 按钮*/
+            $(".english").click(function() {
+              $("[i18n]").i18n({
+                defaultLang: "en",
+                filePath: "/resume/i18n/"
+              });
+            });
           } else if (defaultLang == "en") {
             $("#switchButton").html("切换为中文");
+            /*切换为中文 - 按钮*/
+            $(".chinese").click(function() {
+              $("[i18n]").i18n({
+                defaultLang: "cn",
+                filePath: "/resume/i18n/"
+              });
+            });
           }
         });
       });
@@ -636,5 +636,6 @@
     <script src="./js/jquery.easing.min.js"></script>
     <script src="./js/custom.js"></script>
     <script src="js/jquery.easypiechart.js"></script>
+    <script></script>
   </body>
 </html>
