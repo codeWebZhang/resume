@@ -2,5 +2,14 @@
   "i18n.title": "codezhang resume",
   "i18n.banner.name": "My name is codezhang(hongli.zhang)",
   "i18n.graduate": "Web front-end development engineer, graduated from computer college in 2014.",
-  "i18n.about": "About Me"
+  "i18n.about": "About Me",
+  "i18n.nav": "Navigation",
+  "i18n.home": "Home",
+  "i18n.skill": "Skills",
+  "i18n.experience": "Experience",
+  "i18n.contact": "Contact",
+  "i18n.description.title": "I am a front-end development engineer in Beijing. I graduated from school of computer science, Inner Mongolia agricultural university in 2014. I joined an archive software company in June 2014. At the end of 2015, I came to Beijing to officially engage in front-end development, and now I have more than three years of front-end development experience.",
+  "i18n.description.one": "I have a solid foundation of front-end development and always keep a passion for learning new technologies. Proficient in HTML5, CSS3 and JavaScript(React,Typescript); Popular front-end development frameworks, such as AntdDesign, Redux and Bizcharts have practical development projects; Proficient in front-end development tools, such as gulp. js, Seajs, WebPack and Less, etc. I learned AngularJS and React, but I prefer the lightweight, high-performance, componentized MVVM framework React. Js, which is used in actual development projects. I learned node. js(Express), ECMAScript6 and other technologies, hoping to improve the practice in future development projects.",
+  "i18n.description.hobby": "Love reading, love listening to music, love swimming, love running, love climbing. Code is not life.",
+  "i18n.github": "Go to my GitHub"
 }
