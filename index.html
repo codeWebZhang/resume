@@ -58,7 +58,7 @@
             <div i18n="i18n.about">关于</div>
 
             <div id="chinese" type="button" class="chinese">英文</div>
-            <div id="english" type="button" class="chinese"></div>
+            <!-- <div id="english" type="button" class="chinese"></div> -->
 
             <!-- 切换按钮 -->
           </div>
@@ -620,22 +620,30 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script>
       $("#chinese").click(function() {
-        $("[i18n]").i18n({
-          defaultLang: "en",
-          filePath: "/resume/i18n/"
-        });
-        $(this).html("");
-        $("#english").html("英文");
+        var text = $(this).html();
+        if (text == "中文") {
+          $("[i18n]").i18n({
+            defaultLang: "en",
+            filePath: "/resume/i18n/"
+          });
+          $(this).html("英文");
+        } else if (text == "英文") {
+          $("[i18n]").i18n({
+            defaultLang: "cn",
+            filePath: "/resume/i18n/"
+          });
+          $("#chinese").html("中文");
+        }
       });
 
-      $("#english").click(function() {
-        $("[i18n]").i18n({
-          defaultLang: "cn",
-          filePath: "/resume/i18n/"
-        });
-        $(this).html("");
-        $("#chinese").html("中文");
-      });
+      // $("#english").click(function() {
+      //   $("[i18n]").i18n({
+      //     defaultLang: "cn",
+      //     filePath: "/resume/i18n/"
+      //   });
+      //   $(this).html("");
+      //   $("#chinese").html("中文");
+      // });
     </script>
   </body>
 </html>
