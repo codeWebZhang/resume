@@ -57,7 +57,8 @@
             <a href="#aboutme" class="mbnt">关于我</a>
             <div i18n="i18n.about">关于</div>
             <div>
-              <button id="switchButton" type="button" class="chinese"></button>
+              <button id="chinese" type="button" class="chinese"></button>
+              <button id="english" type="button" class="chinese"></button>
             </div>
             <!-- 切换按钮 -->
           </div>
@@ -618,19 +619,25 @@
     <script src="./js/custom.js"></script>
     <script src="js/jquery.easypiechart.js"></script>
     <script>
-      $("#switchButton").click(function() {
-        if (defaultLang == "en") {
+      $("#chinese")
+        .click(function() {
           $("[i18n]").i18n({
-            defaultLang: "cn",
-            filePath: "/resume/i18n/"
-          });
-        } else if (defaultLang == "cn") {
-          "[i18n]".i18n({
             defaultLang: "en",
             filePath: "/resume/i18n/"
           });
-        }
-      });
+          $("#english").html("中文");
+        })
+        .html("");
+
+      $("#english")
+        .click(function() {
+          $("[i18n]").i18n({
+            defaultLang: "en",
+            filePath: "/resume/i18n/"
+          });
+          $("#chinese").html("英文文");
+        })
+        .html("");
     </script>
   </body>
 </html>
