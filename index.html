@@ -622,6 +622,7 @@
       $("#chinese").click(function() {
         var text = $(this).html();
         if (text == "中文") {
+          console.log("-----");
           $("[i18n]").i18n({
             defaultLang: "en",
             filePath: "/resume/i18n/"
