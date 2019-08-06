@@ -611,23 +611,27 @@
           var lang = navigator.language || navigator.userLanguage;
           // if (lang == "zh-CN") {
           if (defaultLang == "cn") {
-            $("#switchButton").html("切换为英文");
+            // $("#switchButton").html("切换为英文");
             /*切换为英文 - 按钮*/
-            $("#switchButton").click(function() {
-              $("[i18n]").i18n({
-                defaultLang: "en",
-                filePath: "/resume/i18n/"
-              });
-            });
+            $("#switchButton")
+              .click(function() {
+                $("[i18n]").i18n({
+                  defaultLang: "en",
+                  filePath: "/resume/i18n/"
+                });
+              })
+              .html("切换为英文");
           } else if (defaultLang == "en") {
-            $("#switchButton").html("切换为中文");
+            // $("#switchButton").html("切换为中文");
             /*切换为中文 - 按钮*/
-            $("#switchButton").click(function() {
-              $("[i18n]").i18n({
-                defaultLang: "cn",
-                filePath: "/resume/i18n/"
-              });
-            });
+            $("#switchButton")
+              .click(function() {
+                $("[i18n]").i18n({
+                  defaultLang: "cn",
+                  filePath: "/resume/i18n/"
+                });
+              })
+              .html("切换为中文");
           }
         });
       });
