@@ -12,5 +12,21 @@
   "i18n.description.one": " 有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript(React,Typescript)；对流行的前端开发框架，比如AntdDesign和Redux,Bizcharts都有实际开发项目；能熟练使用前端开发工具，比如Gulp.js、Seajs、WebPack和Less等等；学习了AngularJS和React，但更加喜欢轻巧、高性能、可组件化的MVVM框架React.js，并在实际的开发项目中使用；学习了Node.js(Express)、ECMAScript6等技术，希望在往后的开发项目中得到实践提升。",
   "i18n.description.hobby": "爱读书，爱听歌，爱游泳，爱跑步，爱爬山。代码不是生活的全部。",
   "i18n.github": "前往我的GitHub",
-  "i18n.feeling": "前端开发需要一个持续和长期的学习，需要在各种领域都有充足的知识储备，需要对新技术的学习保持热情。前端开发工程师技术栈中最重要的就是原生JavaScript，《JavaScript高级编程》和《Javascript权威指南》都通读了几遍，最近重新拜读《JavaScript语言精粹》一书。"
+  "i18n.feeling": "前端开发需要一个持续和长期的学习，需要在各种领域都有充足的知识储备，需要对新技术的学习保持热情。前端开发工程师技术栈中最重要的就是原生JavaScript，《JavaScript高级编程》和《Javascript权威指南》都通读了几遍，最近重新拜读《JavaScript语言精粹》一书。",
+  "i18n.experience.info": "毕业于内蒙古农业大学，2016年正式开始了自己的前端开发工程师生涯。此后的第一份公司是医疗行业，在职期间，在完成个人任务的同时，也在不断的学习javascript。同时公司是美国企业，推崇React体系，从而开启我的react的大门。随着前端es6的出世，前端更注重工程化，组件化，前端门槛越来越高。许多框架也应运而生，前端 加油！",
+  "i18n.tonow": "至今",
+  "i18n.company.now": "深圳日海智能有限责任公司",
+  "i18n.company.aoyi": "北京奥义状网络科技有限公司",
+  "i18n.aoyi.info": " 这段时间一直在用React,Typescript开发项目，除了web端，还有移动端的开发任务，运营还会提一些临时活动的需求，我们也会写H5页面，期间会一直关注一些前端最新的动态，一般会在掘金社区学习",
+  "i18n.company.feidakang": "美国菲达康有限公司",
+  "i18n.feidakang.info": "这段时间是自己前端开发技能得到不少提高的阶段。公司有三个前端，公司的官网、新的医疗项目、老项目的日常维护、管理后台的页面优化、等等都做过一些。工作非常饱和，但是在闲暇时候抽空学了很多新的框架和库，对AngularJS和React有了一定的了解，而选择了轻巧、高性能、可组件化的React",
+  "i18n.company.taitan": "珠海泰坦软件系统有限公司",
+  "i18n.taitan.info": "日常工作围绕档案系统管理页面进行编写，开发公司的后台页面，官网以及一些PC端页面。业余时间，积极学习和掌握了非常多的技术，比如Jquery、Less、Bootstrap3,。开始泡在GitHub上学习开源框架和分享自己的学习经验，对原生JavaScript的理解和认知也提升了不少。",
+  "i18n.web.hero": "前端开发工程师",
+  "i18n.continued": "待续...",
+  "i18n.designer": "网页设计师",
+  "i18n.school": "内蒙古农业大学",
+  "i18n.colleges": "计算机学院本科生",
+  "i18n.email": "联系方式",
+  "i18n.school.learn": "在四年的大学生活中我主要学习了比如操作系统，计算机网络，C/C++编程语言，数据结构，编译原理和软件工程导论等等。而在2013年10月开始自学前端开发，在毕业前自学并熟悉掌握了HTML，CSS和jQuery，并且也打下了不错的原生JavaScript基础。"
 }
