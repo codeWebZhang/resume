@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="http://cody1991.github.io/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>codezhang 个人简历</title>
+    <title i18n="i18n.title">codezhang 个人简历</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"
@@ -52,11 +52,11 @@
             </div>
           </div>
           <div class="bannerText container">
-            <h1>我叫codezhang(张洪利)</h1>
-            <p>Web前端开发工程师，2014年计算机学院毕业。</p>
-            <a href="#aboutme" class="mbnt">关于我</a>
-            <div i18n="i18n.about">关于</div>
-
+            <h1 i18n="i18n.banner.name">我叫codezhang(张洪利)</h1>
+            <p i18n="i18n.graduate">
+              Web前端开发工程师，2014年计算机学院毕业。
+            </p>
+            <a href="#aboutme" class="mbnt" i18n="i18n.about">关于我</a>
             <div id="chinese" type="button" class="chinese">英文</div>
             <!-- <div id="english" type="button" class="chinese"></div> -->
 
@@ -623,7 +623,6 @@
       $("#chinese").click(function() {
         var text = $(this).html();
         if (text == "中文") {
-          console.log("-----");
           $("[i18n]").i18n({
             defaultLang: "cn",
             filePath: "/resume/i18n/"
@@ -637,15 +636,6 @@
           $("#chinese").html("中文");
         }
       });
-
-      // $("#english").click(function() {
-      //   $("[i18n]").i18n({
-      //     defaultLang: "cn",
-      //     filePath: "/resume/i18n/"
-      //   });
-      //   $(this).html("");
-      //   $("#chinese").html("中文");
-      // });
     </script>
   </body>
 </html>
