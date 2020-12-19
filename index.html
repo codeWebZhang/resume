@@ -1,131 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="http://cody1991.github.io/favicon.ico" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title i18n="i18n.title">codezhang 个人简历</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/font-awesome.min.css" />
-  </head>
 
-  <body>
-    <div class="wrapper" id="wrapper">
-      <header>
-        <div class="banner row" id="banner">
-          <div
-            class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container"
-            style="height:100%"
-          >
-            <div class="slide">
-              <img
-                src="images/header-image/header-bg1.jpg"
-                width="1024"
-                height="682"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="images/header-image/header-bg2.jpg"
-                width="1024"
-                height="682"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="images/header-image/header-bg3.jpg"
-                width="1024"
-                height="682"
-              />
-            </div>
-            <div class="slide">
-              <img
-                src="images/header-image/header-bg4.jpg"
-                width="1024"
-                height="682"
-              />
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="http://cody1991.github.io/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title i18n="i18n.title">codezhang 个人简历</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <style type="text/css">
+    body {
+      padding-top: 20px;
+    }
+
+    #live2d-widget {
+      transform-origin: 100% 100% 0;
+    }
+
+    .selectClick {
+      padding: 2px 4px;
+    }
+
+    .glyphicon {
+      position: fixed !important;
+      top: 10px;
+      right: 10px;
+      border: 0;
+      z-index: 1;
+      font-size: 30px;
+      color: #000;
+    }
+
+    .octicon-mark-github {
+      right: 50px;
+    }
+
+    .img {
+      height: 50px
+    }
+  </style>
+  <script src="http://49.235.106.43/usr/local/lighthouse/softwares/nginx/web/js/live2d.js"></script>
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+          <div class="slide">
+            <img src="images/header-image/header-bg1.jpg" width="1024" height="682" />
           </div>
-          <div class="bannerText container">
-            <h1 i18n="i18n.banner.name">我叫codezhang(张洪利)</h1>
-            <p i18n="i18n.graduate">
-              Web前端开发工程师，2014年计算机学院毕业。
-            </p>
-            <div id="chinese" type="button" class="switch">英文</div>
-            <a href="#aboutme" class="mbnt" i18n="i18n.about">关于我</a>
-
-            <!-- 切换按钮 -->
+          <div class="slide">
+            <img src="images/header-image/header-bg2.jpg" width="1024" height="682" />
+          </div>
+          <div class="slide">
+            <img src="images/header-image/header-bg3.jpg" width="1024" height="682" />
+          </div>
+          <div class="slide">
+            <img src="images/header-image/header-bg4.jpg" width="1024" height="682" />
           </div>
         </div>
-        <div class="menu">
-          <div class="navbar-wrapper">
-            <div class="container">
-              <div class="navwrapper">
-                <div class="navbar navbar-inverse navbar-static-top">
-                  <div class="container">
-                    <div class="navbar-header">
-                      <button
-                        type="button"
-                        class="navbar-toggle"
-                        data-toggle="collapse"
-                        data-target=".navbar-collapse"
-                      >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#" i18n="i18n.nav">导航</a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav nav-justified">
-                        <li class="first menuItem homeLink active">
-                          <a href="#wrapper" i18n="i18n.home">首页</a>
-                        </li>
-                        <li class="menuItem">
-                          <a href="#aboutme" i18n="i18n.about">关于我</a>
-                        </li>
-                        <li class="menuItem">
-                          <a href="#technical" i18n="i18n.skill">技能</a>
-                        </li>
-                        <li class="menuItem">
-                          <a href="#exprience" i18n="i18n.experience">经历</a>
-                        </li>
-                        <!-- <li class="menuItem">
+        <div class="bannerText container">
+          <h1 i18n="i18n.banner.name">我叫codezhang(张洪利)</h1>
+          <p i18n="i18n.graduate">
+            Web前端开发工程师，2014年计算机学院毕业。
+          </p>
+          <div id="chinese" type="button" class="switch">英文</div>
+          <a href="#aboutme" class="mbnt" i18n="i18n.about">关于我</a>
+
+          <!-- 切换按钮 -->
+        </div>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" i18n="i18n.nav">导航</a>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav nav-justified">
+                      <li class="first menuItem homeLink active">
+                        <a href="#wrapper" i18n="i18n.home">首页</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#aboutme" i18n="i18n.about">关于我</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#technical" i18n="i18n.skill">技能</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#exprience" i18n="i18n.experience">经历</a>
+                      </li>
+                      <!-- <li class="menuItem">
                           <a href="#reffernces">项目</a>
                         </li> -->
-                        <li class="menuItem">
-                          <a href="#contact" i18n="i18n.contact">联系我</a>
-                        </li>
-                      </ul>
-                    </div>
+                      <li class="menuItem">
+                        <a href="#contact" i18n="i18n.contact">联系我</a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <section class="aboutme" id="aboutme">
-        <div class="container">
-          <div class="row">
-            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
-              <div class="heading clearfix">
-                <h2 i18n="i18n.about">关于我</h2>
-              </div>
-              <div id="description">
-                <p i18n="i18n.description.title">
-                  我是一名北京的前端开发工程师，2014年的内蒙古农业大学计算机学院本科毕业生，2014年6月份入职一家档案软件公司，工作职责主要美化和修改页面，其间一直在不断学习前端知识。2015年年末来到北京正式从事前端开发，至今已经有三年多前端开发经验。
-                </p>
-                <p i18n="i18n.description.one">
-                  有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript(React,Typescript)；对流行的前端开发框架，比如Antd
-                  Design和Redux,Bizcharts都有实际开发项目；能熟练使用前端开发工具，比如Gulp.js、Seajs、WebPack和Less等等；学习了AngularJS和React，但更加喜欢轻巧、高性能、可组件化的MVVM框架React.js，并在实际的开发项目中使用；学习了Node.js(Express)、ECMAScript6等技术，希望在往后的开发项目中得到实践提升。
-                </p>
-                <!-- <p>
+      </div>
+    </header>
+    <section class="aboutme" id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+            <div class="heading clearfix">
+              <h2 i18n="i18n.about">关于我</h2>
+            </div>
+            <div id="description">
+              <p i18n="i18n.description.title">
+                我是一名北京的前端开发工程师，2014年的内蒙古农业大学计算机学院本科毕业生，2014年6月份入职一家档案软件公司，工作职责主要美化和修改页面，其间一直在不断学习前端知识。2015年年末来到北京正式从事前端开发，至今已经有三年多前端开发经验。
+              </p>
+              <p i18n="i18n.description.one">
+                有着坚实的前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript(React,Typescript)；对流行的前端开发框架，比如Antd
+                Design和Redux,Bizcharts都有实际开发项目；能熟练使用前端开发工具，比如Gulp.js、Seajs、WebPack和Less等等；学习了AngularJS和React，但更加喜欢轻巧、高性能、可组件化的MVVM框架React.js，并在实际的开发项目中使用；学习了Node.js(Express)、ECMAScript6等技术，希望在往后的开发项目中得到实践提升。
+              </p>
+              <!-- <p>
                   乐于分享，长期活跃在GitHub上，有不少开源的项目。有
                   <a href="http://cody1991.github.io/index.html"
                     >个人的技术博客</a
@@ -142,262 +149,257 @@
                   >
                   一书。
                 </p> -->
-                <p i18n="i18n.description.hobby">
-                  爱读书，爱听歌，爱游泳，爱跑步，爱爬山。代码不是生活的全部。
-                </p>
-              </div>
-              <a
-                href="https://github.com/codeWebZhang"
-                class="btnDownload"
-                i18n="i18n.github"
-                >前往我的GitHub</a
-              >
+              <p i18n="i18n.description.hobby">
+                爱读书，爱听歌，爱游泳，爱跑步，爱爬山。代码不是生活的全部。
+              </p>
+            </div>
+            <a href="https://github.com/codeWebZhang" class="btnDownload" i18n="i18n.github">前往我的GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technical" id="technical">
+      <div class="container">
+        <div class="heading">
+          <h2 id="technical_title" i18n="i18n.skill">技能</h2>
+          <p i18n="i18n.feeling">
+            前端开发需要一个持续和长期的学习，需要在各种领域都有充足的知识储备，需要对新技术的学习保持热情。前端开发工程师技术栈中最重要的就是原生JavaScript，《JavaScript高级编程》和《Javascript权威指南》都通读了几遍，最近重新拜读《JavaScript语言精粹》一书。
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                <span class="percent"></span>
+              </span>
+              <h4>HTML5</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                <span class="percent"></span>
+              </span>
+              <h4>CSS3</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="80">
+                <span class="percent"></span>
+              </span>
+              <h4>JavasSript</h4>
             </div>
           </div>
         </div>
-      </section>
-      <section class="technical" id="technical">
-        <div class="container">
-          <div class="heading">
-            <h2 id="technical_title" i18n="i18n.skill">技能</h2>
-            <p i18n="i18n.feeling">
-              前端开发需要一个持续和长期的学习，需要在各种领域都有充足的知识储备，需要对新技术的学习保持热情。前端开发工程师技术栈中最重要的就是原生JavaScript，《JavaScript高级编程》和《Javascript权威指南》都通读了几遍，最近重新拜读《JavaScript语言精粹》一书。
-            </p>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="85">
-                  <span class="percent"></span>
-                </span>
-                <h4>HTML5</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="85">
-                  <span class="percent"></span>
-                </span>
-                <h4>CSS3</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="80">
-                  <span class="percent"></span>
-                </span>
-                <h4>JavasSript</h4>
-              </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                <span class="percent"></span>
+              </span>
+              <h4>jQuery</h4>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="85">
-                  <span class="percent"></span>
-                </span>
-                <h4>jQuery</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="90">
-                  <span class="percent"></span>
-                </span>
-                <h4>Bootstrap 3</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="90">
-                  <span class="percent"></span>
-                </span>
-                <h4>Bizcharts</h4>
-              </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="90">
+                <span class="percent"></span>
+              </span>
+              <h4>Bootstrap 3</h4>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="85">
-                  <span class="percent"></span>
-                </span>
-                <h4>Vue.js</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="90">
-                  <span class="percent"></span>
-                </span>
-                <h4>React.js</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="90">
-                  <span class="percent"></span>
-                </span>
-                <h4>Webpack</h4>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="75">
-                  <span class="percent"></span>
-                </span>
-                <h4>React-Redux</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="75">
-                  <span class="percent"></span>
-                </span>
-                <h4>Antd</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="75">
-                  <span class="percent"></span>
-                </span>
-                <h4>GitHub</h4>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="75">
-                  <span class="percent"></span>
-                </span>
-                <h4>ECMAScript 6</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="75">
-                  <span class="percent"></span>
-                </span>
-                <h4>Moment.js</h4>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 skills">
-                <span class="chart skilBg" data-percent="85">
-                  <span class="percent"></span>
-                </span>
-                <h4>Typescript</h4>
-              </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="90">
+                <span class="percent"></span>
+              </span>
+              <h4>Bizcharts</h4>
             </div>
           </div>
         </div>
-      </section>
-      <section class="exprience" id="exprience">
-        <div class="container">
-          <div class="heading">
-            <h2 i18n="i18n.experience">经历</h2>
-            <p i18n="i18n.experience">
-              毕业于内蒙古农业大学，2016年正式开始了自己的前端开发工程师生涯。此后的第一份公司是医疗行业，在职期间，在完成个人任务的同时，也在不断的学习javascript。同时公司是美国企业，推崇React体系，从而开启我的react的大门。随着前端es6的出世，前端更注重工程化，组件化，前端门槛越来越高。许多框架也应运而生，前端
-              加油！
-            </p>
-          </div>
-          <div class="row workDetails">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-              <div class="workYear">
-                <span class="prevY">04,2019</span>
-                <span class="afterY" i18n="i18n.experience">至今</span>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-              <div class="arrowpart"></div>
-              <div class="exCon">
-                <h4 i18n="i18n.company.now">深圳日海智能有限责任公司</h4>
-                <h5 i18n="i18n.web.hero">前端开发工程师</h5>
-                <p i18n="i18n.continued">待续...</p>
-              </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                <span class="percent"></span>
+              </span>
+              <h4>Vue.js</h4>
             </div>
           </div>
-          <div class="row workDetails">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-              <div class="workYear">
-                <span class="prevY">04,2019</span>
-                <span class="afterY">10,2018</span>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-              <div class="arrowpart"></div>
-              <div class="exCon">
-                <h4 i18n="i18n.company.aoyi">北京奥义状网络科技有限公司</h4>
-                <h5 i18n="i18n.web.hero">前端开发工程师</h5>
-                <p i18n="i18n.aoyi.info">
-                  这段时间一直在用React,
-                  Typescript开发项目，除了web端，还有移动端的开发任务，运营还会提一些临时活动的需求，我们也会写H5页面，期间会一直关注一些前端最新的动态，一般会在掘金社区学习
-                </p>
-              </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="90">
+                <span class="percent"></span>
+              </span>
+              <h4>React.js</h4>
             </div>
           </div>
-          <div class="row workDetails">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-              <div class="workYear">
-                <span class="prevY">10,2018</span>
-                <span class="afterY">01,2016</span>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-              <div class="arrowpart"></div>
-              <div class="exCon">
-                <h4 i18n="i18n.company.feidakang">美国菲达康有限公司</h4>
-                <h5 i18n="i18n.web.hero">前端开发工程师</h5>
-                <p i18n="i18n.feidakang.info">
-                  这段时间是自己前端开发技能得到不少提高的阶段。公司有三个前端，公司的官网、新的医疗项目、老项目的日常维护、管理后台的页面优化、等等都做过一些。工作非常饱和，但是在闲暇时候抽空学了很多新的框架和库，对AngularJS和React有了一定的了解，而选择了轻巧、高性能、可组件化的React.js作为主攻的MVVM框架，开始涉及WebPack，ECMAScript6，Node.js(Express)等的学习，熟练使用npm、Bower、Gulp.js等工具,并且在自己的一个GitHub项目
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row workDetails">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-              <div class="workYear">
-                <span class="prevY">12,2015</span>
-                <span class="afterY">07,2014</span>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-              <div class="arrowpart"></div>
-              <div class="exCon">
-                <h4 i18n="i18n.company.taitan">珠海泰坦软件系统有限公司</h4>
-                <h5 i18n="i18n.designer">网页设计师</h5>
-                <p i18n="i18n.taitan.info">
-                  日常工作围绕档案系统管理页面进行编写，开发公司的后台页面，官网以及一些PC端页面。业余时间，积极学习和掌握了非常多的技术，比如Jquery、Less、Bootstrap3,
-                  。开始泡在GitHub上学习开源框架和分享自己的学习经验，对原生JavaScript的理解和认知也提升了不少。
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row workDetails">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-              <div class="workYear">
-                <span class="prevY">06,2014</span>
-                <span class="afterY">09,2010</span>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-              <div class="arrowpart"></div>
-              <div class="exCon">
-                <h4 i18n="i18n.school">内蒙古农业大学</h4>
-                <h5 i18n="i18n.colleges">计算机学院本科生</h5>
-                <p i18n="i18n.school.learn">
-                  在四年的大学生活中我主要学习了比如操作系统，计算机网络，C/C++编程语言，数据结构，编译原理和软件工程导论等等。而在2013年10月开始自学前端开发，在毕业前自学并熟悉掌握了HTML，CSS和jQuery，并且也打下了不错的原生JavaScript基础。
-                </p>
-              </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="90">
+                <span class="percent"></span>
+              </span>
+              <h4>Webpack</h4>
             </div>
           </div>
         </div>
-      </section>
-      <!-- <section class="reffernces" id="reffernces">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="75">
+                <span class="percent"></span>
+              </span>
+              <h4>React-Redux</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="75">
+                <span class="percent"></span>
+              </span>
+              <h4>Antd</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="75">
+                <span class="percent"></span>
+              </span>
+              <h4>GitHub</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="75">
+                <span class="percent"></span>
+              </span>
+              <h4>ECMAScript 6</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="75">
+                <span class="percent"></span>
+              </span>
+              <h4>Moment.js</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                <span class="percent"></span>
+              </span>
+              <h4>Typescript</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="exprience" id="exprience">
+      <div class="container">
+        <div class="heading">
+          <h2 i18n="i18n.experience">经历</h2>
+          <p i18n="i18n.experience">
+            毕业于内蒙古农业大学，2016年正式开始了自己的前端开发工程师生涯。此后的第一份公司是医疗行业，在职期间，在完成个人任务的同时，也在不断的学习javascript。同时公司是美国企业，推崇React体系，从而开启我的react的大门。随着前端es6的出世，前端更注重工程化，组件化，前端门槛越来越高。许多框架也应运而生，前端
+            加油！
+          </p>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">04,2019</span>
+              <span class="afterY" i18n="i18n.experience">至今</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4 i18n="i18n.company.now">深圳日海智能有限责任公司</h4>
+              <h5 i18n="i18n.web.hero">前端开发工程师</h5>
+              <p i18n="i18n.continued">待续...</p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">04,2019</span>
+              <span class="afterY">10,2018</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4 i18n="i18n.company.aoyi">北京奥义状网络科技有限公司</h4>
+              <h5 i18n="i18n.web.hero">前端开发工程师</h5>
+              <p i18n="i18n.aoyi.info">
+                这段时间一直在用React,
+                Typescript开发项目，除了web端，还有移动端的开发任务，运营还会提一些临时活动的需求，我们也会写H5页面，期间会一直关注一些前端最新的动态，一般会在掘金社区学习
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">10,2018</span>
+              <span class="afterY">01,2016</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4 i18n="i18n.company.feidakang">美国菲达康有限公司</h4>
+              <h5 i18n="i18n.web.hero">前端开发工程师</h5>
+              <p i18n="i18n.feidakang.info">
+                这段时间是自己前端开发技能得到不少提高的阶段。公司有三个前端，公司的官网、新的医疗项目、老项目的日常维护、管理后台的页面优化、等等都做过一些。工作非常饱和，但是在闲暇时候抽空学了很多新的框架和库，对AngularJS和React有了一定的了解，而选择了轻巧、高性能、可组件化的React.js作为主攻的MVVM框架，开始涉及WebPack，ECMAScript6，Node.js(Express)等的学习，熟练使用npm、Bower、Gulp.js等工具,并且在自己的一个GitHub项目
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">12,2015</span>
+              <span class="afterY">07,2014</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4 i18n="i18n.company.taitan">珠海泰坦软件系统有限公司</h4>
+              <h5 i18n="i18n.designer">网页设计师</h5>
+              <p i18n="i18n.taitan.info">
+                日常工作围绕档案系统管理页面进行编写，开发公司的后台页面，官网以及一些PC端页面。业余时间，积极学习和掌握了非常多的技术，比如Jquery、Less、Bootstrap3,
+                。开始泡在GitHub上学习开源框架和分享自己的学习经验，对原生JavaScript的理解和认知也提升了不少。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">06,2014</span>
+              <span class="afterY">09,2010</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4 i18n="i18n.school">内蒙古农业大学</h4>
+              <h5 i18n="i18n.colleges">计算机学院本科生</h5>
+              <p i18n="i18n.school.learn">
+                在四年的大学生活中我主要学习了比如操作系统，计算机网络，C/C++编程语言，数据结构，编译原理和软件工程导论等等。而在2013年10月开始自学前端开发，在毕业前自学并熟悉掌握了HTML，CSS和jQuery，并且也打下了不错的原生JavaScript基础。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="reffernces" id="reffernces">
         <div class="container">
           <div class="heading">
             <h2>项目</h2>
@@ -531,107 +533,102 @@
           </div>
         </div>
       </section> -->
-      <section class="contact" id="contact">
-        <div class="container topCon">
-          <div class="heading">
-            <h2 i18n="i18n.contact">联系我</h2>
-          </div>
+    <section class="contact" id="contact">
+      <div class="container topCon">
+        <div class="heading">
+          <h2 i18n="i18n.contact">联系我</h2>
         </div>
-      </section>
-      <section class="contactDetails">
-        <div class="container">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h4 i18n="i18n.email">联系方式</h4>
-            <p>
-              <i class="icon icon-envelope"></i
-              ><a>zhanghongli@sunseaaiot.com</a>
-            </p>
-            <p>
-              <i class="icon icon-link"></i
-              ><a href="https://codewebzhang.github.io/resume/"
-                >https://codewebzhang.github.io/</a
-              >
-            </p>
-          </div>
+      </div>
+    </section>
+    <section class="contactDetails">
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h4 i18n="i18n.email">联系方式</h4>
+          <p>
+            <i class="icon icon-envelope"></i><a>zhanghongli@sunseaaiot.com</a>
+          </p>
+          <p>
+            <i class="icon icon-link"></i><a
+              href="https://codewebzhang.github.io/resume/">https://codewebzhang.github.io/</a>
+          </p>
         </div>
-      </section>
-      <section class="footer" id="footer">
-        <div class="container">
-          <ul>
-            <li>
-              <a href="https://github.com/codeWebZhang"
-                ><i class="icon icon-github icon-2x"></i
-              ></a>
-            </li>
-          </ul>
-          <span class="totop"><i class="icon icon-chevron-up"></i> </span>
-        </div>
-      </section>
-    </div>
-    <script src="./js/jquery-2.1.4.min.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/jquery.waterfall.js"></script>
-    <script src="./js/stickUp.js"></script>
-    <!-- <script src="./js/jquery.i18n.js"></script> -->
-    <script src="./js/jquery.i18n.min.js"></script>
-    <script type="text/javascript">
-      jQuery(function($) {
-        $(document).ready(function() {
-          //enabling stickUp on the '.navbar-wrapper' class
+      </div>
+    </section>
+    <section class="footer" id="footer">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://github.com/codeWebZhang"><i class="icon icon-github icon-2x"></i></a>
+          </li>
+        </ul>
+        <span class="totop"><i class="icon icon-chevron-up"></i> </span>
+      </div>
+    </section>
+  </div>
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/jquery.waterfall.js"></script>
+  <script src="./js/stickUp.js"></script>
+  <!-- <script src="./js/jquery.i18n.js"></script> -->
+  <script src="./js/jquery.i18n.min.js"></script>
+  <script type="text/javascript">
+    jQuery(function ($) {
+      $(document).ready(function () {
+        //enabling stickUp on the '.navbar-wrapper' class
 
-          $(".navbar-wrapper").stickUp({
-            parts: {
-              0: "wrapper",
-              1: "aboutme",
-              2: "technical",
-              3: "exprience",
-              4: "reffernces",
-              5: "contact"
-            },
-            itemClass: "menuItem",
-            itemHover: "active",
-            topMargin: "auto"
-          });
-          /*默认语言*/
-          var defaultLang = "cn";
-          $("[i18n]").i18n({
-            defaultLang: defaultLang,
-            filePath: "/resume/i18n/",
-            filePrefix: "i18n_",
-            fileSuffix: "",
-            forever: true,
-            callback: function() {
-              console.log("i18n is ready.");
-            }
-          });
-          $("chinese").html("");
-          // zh - CN;
-          var lang = navigator.language || navigator.userLanguage;
-          // if (lang == "zh-CN") {
+        $(".navbar-wrapper").stickUp({
+          parts: {
+            0: "wrapper",
+            1: "aboutme",
+            2: "technical",
+            3: "exprience",
+            4: "reffernces",
+            5: "contact"
+          },
+          itemClass: "menuItem",
+          itemHover: "active",
+          topMargin: "auto"
         });
+        /*默认语言*/
+        var defaultLang = "cn";
+        $("[i18n]").i18n({
+          defaultLang: defaultLang,
+          filePath: "/resume/i18n/",
+          filePrefix: "i18n_",
+          fileSuffix: "",
+          forever: true,
+          callback: function () {
+            console.log("i18n is ready.");
+          }
+        });
+        $("chinese").html("");
+        // zh - CN;
+        var lang = navigator.language || navigator.userLanguage;
+        // if (lang == "zh-CN") {
       });
-    </script>
-    <script src="./js/jquery.superslides.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-    <script src="./js/custom.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
-    <script>
-      $("#chinese").click(function() {
-        var text = $(this).html();
-        if (text == "中文") {
-          $("[i18n]").i18n({
-            defaultLang: "cn",
-            filePath: "/resume/i18n/"
-          });
-          $(this).html("英文");
-        } else if (text == "英文") {
-          $("[i18n]").i18n({
-            defaultLang: "en",
-            filePath: "/resume/i18n/"
-          });
-          $("#chinese").html("中文");
-        }
-      });
+    });
+  </script>
+  <script src="./js/jquery.superslides.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="js/jquery.easypiechart.js"></script>
+  <script>
+    $("#chinese").click(function () {
+      var text = $(this).html();
+      if (text == "中文") {
+        $("[i18n]").i18n({
+          defaultLang: "cn",
+          filePath: "/resume/i18n/"
+        });
+        $(this).html("英文");
+      } else if (text == "英文") {
+        $("[i18n]").i18n({
+          defaultLang: "en",
+          filePath: "/resume/i18n/"
+        });
+        $("#chinese").html("中文");
+      }
+    });
 
       // function setCookieLanguage(name, value) {
       //   document.cookie = name + "=" + value;
@@ -668,6 +665,93 @@
       // ) {
       //   $("[i18n]").i18n({ defaultLang: "english" });
       // }
-    </script>
-  </body>
+  </script>
+</body>
+<script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
+<script src="https://github.com/xiazeyu/live2d-widget-models"></script>
+<script type="text/javascript">
+
+  var selectAry = [
+    ["chitose"],
+    ["epsilon2.1", "epsilon2_1"],
+    ["gantzert_felixander", "gf"],
+    ["haru01"],
+    ["haru02"],
+    ["haruto"],
+    ["hibiki"],
+    ["hijiki"],
+    ["izumi"],
+    ["koharu"],
+    ["miku"],
+    ["nico"],
+    ["ni-j"],
+    ["nipsilon"],
+    ["nito"],
+    ["shizuku"],
+    ["tororo"],
+    ["tsumiki"],
+    ["Unitychan"],
+    ["wanko"],
+    ["z16"]
+  ];
+
+  selectAry.map((ary) => {
+    $(".dropdown-menu").append('<li class="selectClick">' + ary[0] + '</li>');
+  });
+
+  $(".selectClick").click(function (e) {
+    window.location.href = `${window.location.origin}${window.location.pathname}?id=${$(this).text().toLowerCase()}`;
+  })
+
+  function initL2Dwidget(selectId) {
+    let modalName = selectAry.find((item) => { return item[0].toLowerCase() == selectId });
+    console.log('modalName', modalName)
+    modalName = modalName && modalName[1] ? modalName[1] : selectId
+
+
+    L2Dwidget
+      .on('*', (name) => {
+        console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+      })
+      .init({
+        dialog: {
+          // 开启对话框
+          enable: true,
+          script: {
+            // 当触摸到角色身体
+            'tap body': '哎呀！别碰我！',
+            // 当触摸到角色头部
+            'tap face': '人家是在认真写博客哦--前端小白',
+          }
+        },
+        display: {
+          position: 'right'
+        },
+        "model": { "jsonPath": "http://49.235.106.43:8000/json/model.json" },
+        "mobile": { "show": true, scale: 0.5 },
+      });
+  }
+
+  function getUrlQuery(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+  // let tId = getUrlQuery('id') || 'haru02';
+  let tId = 'shizuku';
+  $('.btn-info').text(tId);
+  window.onload = () => {
+    initL2Dwidget(tId);
+  }
+
+
+// L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});
+</script>
+
 </html>
